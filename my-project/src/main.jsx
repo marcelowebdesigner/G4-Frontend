@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
+import Description from './components/claro/homepage/Description'
+
 import Header from './components/claro/homepage/Header'
 import Navbar from './components/claro/homepage/Navbar'
 import './index.css'
@@ -11,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
    
    <Navbar />
    <Header />
-
+   <Description />
 
       
   </React.StrictMode>
