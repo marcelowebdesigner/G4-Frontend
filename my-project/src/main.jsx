@@ -1,14 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Navbar from './componentes/Navbar'
+import App from './App'
+import Header from './components/claro/homepage/Header'
+import Navbar from './components/claro/homepage/Navbar'
 import './index.css'
-import NavbarHomepage from './componentes/claro/homepage/Navbar'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>    
    
    <Navbar />
-   <NavbarHomepage/>
+   <Header />
+
 
       
   </React.StrictMode>

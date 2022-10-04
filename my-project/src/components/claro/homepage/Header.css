@@ -1,0 +1,7 @@
+.img1_header { 
+    float: left; width: 250px; transform: rotate(90deg); filter: opacity(0.4) drop-shadow(0 0 0 purple); 
+  }
+
+.img2_header { 
+    float: right; width: 250px;  filter: opacity(0.4) drop-shadow(0 0 0 purple);
+  }
