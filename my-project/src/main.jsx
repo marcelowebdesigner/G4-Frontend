@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Description from './components/claro/homepage/Description'
+import Description from './components/homepage/Description'
 
-import Header from './components/claro/homepage/Header'
-import Navbar from './components/claro/homepage/Navbar'
+import Header from './components/homepage/Header'
+import Navbar from './components/homepage/Navbar'
 import './index.css'
 
 
