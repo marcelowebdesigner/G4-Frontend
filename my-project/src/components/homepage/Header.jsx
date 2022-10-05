@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './Header.css'
+import '../../styles/Header.css'
 
 /** Este es el Header del homepage en modo claro. 
  * 
