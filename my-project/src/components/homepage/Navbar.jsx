@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const NavbarHomepage = () => {
   return (
@@ -13,18 +12,18 @@ const NavbarHomepage = () => {
         </div>
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div class="text-sm lg:flex-grow">
-          <Link to="/"  class="block mt-4 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
               Home
-            </Link>
-            <Link to="/howwork" class="block mt-4 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
+            </a>
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
               How it Work
-            </Link>
-            <Link to="/about" class="block mt-4 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
+            </a>
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
               About
-            </Link>
-            <Link to="/contact" class="block mt-4 m-2 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
+            </a>
+            <a href="#responsive-header" class="block mt-4 m-2 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
               Contact
-            </Link>
+            </a>
           </div>
           <div>
             <a href="#" class="inline-block text-sm px-4 py-2 bg-purple-900 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-purple-900 mt-4 lg:mt-0">Sing In</a>
