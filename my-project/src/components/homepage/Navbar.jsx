@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 const NavbarHomepage = () => {
   return (
     <div>
@@ -21,9 +21,9 @@ const NavbarHomepage = () => {
             <Link to="/about" class="block mt-4 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
               About
             </Link>
-            <Link to="/about" class="block mt-4 m-2 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
+            <Link to="/contact" class="block mt-4 m-2 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
               Contact
-            </a>
+            </Link>
           </div>
           <div>
             <a href="#" class="inline-block text-sm px-4 py-2 bg-purple-900 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-purple-900 mt-4 lg:mt-0">Sing In</a>
