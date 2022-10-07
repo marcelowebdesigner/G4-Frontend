@@ -5,8 +5,9 @@ import SectionCards from "./components/homepage/SectionCards";
 import Header from "./components/homepage/Header";
 import Navbar from "./components/homepage/Navbar";
 import "./index.css";
+import {FormTitle, LoginForm} from "./components/loginpage/LoginForm";
 
-const HomePage = () => {
+export const HomePage = () => {
   return (
     <React-Fragment>
       <Navbar />
@@ -18,4 +19,17 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export const LoginPage = () => {
+    return (
+        <>
+        <FormTitle/>
+        <LoginForm/>
+        
+
+        </>
+        
+
+    )
+}
+
+
