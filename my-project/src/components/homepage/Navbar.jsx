@@ -12,16 +12,16 @@ const NavbarHomepage = () => {
         </div>
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div class="text-sm lg:flex-grow">
-            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
+            <Link to="/" class="block mt-4 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
               Home
-            </a>
-            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
+            </Link>
+            <Link to="/howtowork" class="block mt-4 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
               How it Work
-            </a>
-            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
+            </Link>
+            <Link to="/about" class="block mt-4 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
               About
-            </a>
-            <a href="#responsive-header" class="block mt-4 m-2 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
+            </Link>
+            <Link to="/about" class="block mt-4 m-2 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
               Contact
             </a>
           </div>
