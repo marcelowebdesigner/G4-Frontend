@@ -1,10 +1,10 @@
 import React from "react";
 
-const Cards = props => (
+const Cards = ({title, msg}) => (
   <div className="text-center bg-violet-600 py-10 rounded-md">
-    <h2 className="text-purple-50">{props.title}</h2>
+    <h2 className="text-purple-50">{title}</h2>
     <br/>
-    <p className="text-purple-50">{props.msg}</p>
+    <p className="text-purple-50">{msg}</p>
   </div>
 );
 
