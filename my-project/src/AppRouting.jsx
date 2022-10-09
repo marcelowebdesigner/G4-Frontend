@@ -12,7 +12,7 @@ import Contact from './pages/Contact'
 function AppRouting() {
   return (
     <div className="App">
-       
+       <h1>Hola</h1>
      <Routes>
         <Route path="/" element={<HomePage/>}/>
         <Route path="/HowItWork" element={<HowItWork/>}/>
