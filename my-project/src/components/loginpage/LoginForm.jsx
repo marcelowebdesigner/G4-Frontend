@@ -3,7 +3,7 @@ import React from "react";
 export const FormTitle = () => {
   return (
     <>
-      <h2>Login</h2>
+      <h2>LogIn</h2>
     </>
   );
 };
