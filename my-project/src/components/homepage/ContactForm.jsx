@@ -4,7 +4,7 @@ const ContactForm = () => {
   return (
     <div>
       <form className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white dark:bg-blue-500">
-      <h1 class="text-2xl font-bold dark:text-gray-50">Send a message</h1>
+      <h1 class="text-2xl font-bold dark:text-gray-50">Contactese con nosotros</h1>
 
       <label for="fullname" className="text-gray-500 font-light mt-8 dark:text-gray-50">Full name<span class="text-red-500 dark:text-gray-50">*</span></label>
       <input type="text" name="fullname" class="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500" />
