@@ -28,6 +28,9 @@ const NavbarHomepage = () => {
           <div>
             <a href="#" class="inline-block text-sm px-4 py-2 bg-purple-900 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-purple-900 mt-4 lg:mt-0">Sing In</a>
           </div>
+          <div>
+            <a href="#" class="inline-block text-sm px-4 py-2 bg-purple-900 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-purple-900 mt-4 lg:mt-0">Log In</a>
+          </div>
         </div>
       </nav>
     </div>
