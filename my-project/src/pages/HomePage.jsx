@@ -4,6 +4,7 @@ import Header from '../components/homepage/Header'
 import SectionCards from '../components/homepage/SectionCards'
 import Description from '../components/homepage/Description'
 import { LoginPage } from './LoginPage'
+import Footer from '../components/homepage/Footer'
 const HomePage = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const HomePage = () => {
       <Header/>
       <Description/>
       <SectionCards/>
+      <Footer />
       <LoginPage/>
     </div>
   )
