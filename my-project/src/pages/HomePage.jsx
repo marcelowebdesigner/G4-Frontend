@@ -5,15 +5,16 @@ import SectionCards from '../components/homepage/SectionCards'
 import Description from '../components/homepage/Description'
 import { LoginPage } from './LoginPage'
 import Footer from '../components/homepage/Footer'
+import '../styles/HomePageLight.css'
+
 const HomePage = () => {
   return (
-    <div>
+    <div className="bg-light">
       <Navbar/>
       <Header/>
       <Description/>
       <SectionCards/>
-      <Footer />
-      <LoginPage/>
+      <Footer />      
     </div>
   )
 }
