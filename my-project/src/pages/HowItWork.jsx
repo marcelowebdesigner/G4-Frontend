@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import HowItWorkContent from '../components/homepage/HowItWorkContent';
 
 const HowItWork = () => {
   return (
-    <div>HowItWork</div>
+    <div>
+      <HowItWorkContent />
+    </div>
   )
 }
 
-export default HowItWork
+export default HowItWork;
