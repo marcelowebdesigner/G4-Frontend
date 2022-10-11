@@ -10,7 +10,7 @@ function Description() {
   return ( 
       
     <div class="flex justify-center">
-      <h1 className="text-black-800 text-3xl">Don't forget to cancel your subscriptions in time</h1>  
+      <h1 className="text-black-800 text-3xl font-sans">Don't forget to cancel your subscriptions in time</h1>  
     </div>
    
     
