@@ -3,9 +3,8 @@ import Navbar from '../components/homepage/Navbar'
 import Header from '../components/homepage/Header'
 import SectionCards from '../components/homepage/SectionCards'
 import Description from '../components/homepage/Description'
-import { LoginPage } from './LoginPage'
 import Footer from '../components/homepage/Footer'
-import '../styles/HomePageLight.css'
+import '../styles/Image-bg-ligth.css'
 
 const HomePage = () => {
   return (

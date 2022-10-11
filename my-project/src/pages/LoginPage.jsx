@@ -1,22 +1,41 @@
-import React from 'react'
+import React from "react";
 import {
   FormTitle,
   TextAreaForm,
   ButtonForm,
   MsgInstruction,
-} from '../components/loginpage/LoginForm';
+  ButtonBack,
+  ButtonLogin,
+  TextPassword,
+} from "../components/loginpage/LoginForm";
+import "../styles/Image-bg-ligth.css";
+
 export const LoginPage = () => {
   return (
-    <div className="container mx-auto text-center py-24">
-      <FormTitle />
-      <MsgInstruction instruction="Email or Username"/>
-      <TextAreaForm textContent="Email or Username"/>
-      <MsgInstruction instruction="Password"/>
-      <MsgInstruction instruction="Forgot Password?"/>
-      <TextAreaForm textContent="Password" />
-      <ButtonForm content="Log In"/>
-      <MsgInstruction instruction="Or sign"/>
-      <ButtonForm content="Sig In"/>
+    <div className="login-back mx-auto text-center py-48 ">
+      <div className="container columns-3">
+        <div>
+          <ButtonBack />
+        </div>
+        <div className="">
+          <FormTitle />
+        </div>
+      </div>
+      <br />
+      <div className="container mx-auto px-48">
+        <MsgInstruction instruction="Email or Username" />
+      </div>
+      <TextAreaForm textContent="Email or Username" />
+      <br />
+      <div className="container mx-auto px-48">
+        <MsgInstruction instruction="Password" />
+      </div>
+      <TextPassword textContent="Password" />
+      <br />
+      <ButtonLogin content="Login" />
+      <br />
+      <br />
+      <ButtonForm content="Forgot your password?" />
     </div>
   );
 };

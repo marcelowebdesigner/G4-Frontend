@@ -6,6 +6,7 @@ import HowItWork from "./pages/HowItWork";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import { LoginPage } from "./pages/LoginPage";
+import  SignIn  from "./pages/SignIn"; 
 
 function AppRouting() {
   return (
@@ -15,6 +16,7 @@ function AppRouting() {
         <Route path="/HowItWork" element={<HowItWork />} />
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Signin" element={<SignIn />} />
         <Route path="/Login" element={<LoginPage />} />
       </Routes>
     </div>

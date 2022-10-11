@@ -15,7 +15,7 @@ const NavbarHomepage = () => {
             <Link to="/" class="block mt-4 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
               Home
             </Link>
-            <Link to="/howtowork" class="block mt-4 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
+            <Link to="/howitwork" class="block mt-4 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
               How it Work
             </Link>
             <Link to="/about" class="block mt-4 lg:inline-block lg:mt-0 text-purple-900 hover:underline mr-4">
@@ -26,10 +26,10 @@ const NavbarHomepage = () => {
             </Link>
           </div>
           <div>
-            <a href="#" class="inline-block text-sm px-4 py-2 bg-purple-900 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-purple-900 mt-4 lg:mt-0">Sing In</a>
+            <Link to="/Signin" class="inline-block text-sm px-4 py-2 bg-purple-900 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-purple-900 mt-4 lg:mt-0">Sing In</Link>
           </div>
           <div>
-            <Link to="Login" class="inline-block text-sm px-4 py-2 bg-purple-900 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-purple-900 mt-4 lg:mt-0">Log In</Link>
+            <Link to="/Login" class="inline-block text-sm px-4 py-2 bg-purple-900 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-purple-900 mt-4 lg:mt-0">Log In</Link>
           </div>
         </div>
       </nav>
