@@ -2,10 +2,10 @@ import React from "react";
 import Arrow from '../../assets/media/img/arrow-buttonback.png'
 import {Link} from 'react-router-dom';
 
-export const FormTitle = () => {
+export const FormTitle = ({title}) => {
   return (
     <>
-      <h2 className="text-purple-half-dark text-4xl">Login</h2>
+      <h2 className="text-purple-half-dark text-4xl">{title}</h2>
     </>
   );
 };

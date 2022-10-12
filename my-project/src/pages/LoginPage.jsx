@@ -18,23 +18,23 @@ export const LoginPage = () => {
           <ButtonBack />
         </div>
         <div className="">
-          <FormTitle />
+          <FormTitle title={"Login"}/>
         </div>
       </div>
-      <br />
+        <br />
       <div className="container mx-auto px-48">
         <MsgInstruction instruction="Email or Username" />
       </div>
       <TextAreaForm textContent="Email or Username" />
-      <br />
+        <br />
       <div className="container mx-auto px-48">
         <MsgInstruction instruction="Password" />
       </div>
       <TextPassword textContent="Password" />
-      <br />
+        <br />
       <ButtonLogin content="Login" />
-      <br />
-      <br />
+        <br />
+        <br />
       <ButtonForm content="Forgot your password?" />
     </div>
   );
