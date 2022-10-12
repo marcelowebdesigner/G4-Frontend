@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import { LoginPage } from "./pages/LoginPage";
 import  SignIn  from "./pages/SignIn"; 
+import ResetPassword from "./pages/ResetPassword";
 
 function AppRouting() {
   return (
@@ -18,6 +19,7 @@ function AppRouting() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Signin" element={<SignIn />} />
         <Route path="/Login" element={<LoginPage />} />
+        <Route path="/resetPassword" element={<ResetPassword />} />
       </Routes>
     </div>
   );
