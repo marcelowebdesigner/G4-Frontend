@@ -13,8 +13,8 @@ const Footer = () => {
             <div>                
               <h1 class="text-purple-200 mr-4">Links</h1>                
                 <div>
-                    <Link to="/howtowork" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:underline mr-4">
-                        How it works? 
+                    <Link to="/HowItWork" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:underline mr-4">
+                        How it work
                     </Link>
                     <Link to="/About" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:underline mr-4">
                         About 
