@@ -1,5 +1,7 @@
 .bg-light{
     background: url("./src/assets/media/svg/bg-light.svg") no-repeat right top fixed;
+    width : 100%;
+    height : 100%;
   }
 
   .login-back{
