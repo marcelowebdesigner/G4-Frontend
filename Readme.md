@@ -1,9 +1,17 @@
-Este es un repositorio para el frontend de una aplicación de  recordatorios de pagos.
-Aplicamos al 100% metodologias Agiles, intentamos hacer lo posible considerando que es un grupo de trabajo de diferentes usos horarios. Para ello mediante Trello creamos y asignamos tareas, donde van cambiando de columna según su estado. Una vez realizada, el/la colaborador/a realiza un PR, se hace un Code Review y una vez que al menos 1 aprobador de el ok, recién ahí se mergea a Develop. 
-Utilización de diferentes tecnologías que decidimos utilizar en el proyecto, como: Git, Github, Vite, 
-React, Tailwind, Figma, Canva entre otras! para poder descargar este repositorio debes 
-realizar los siguientes pasos. 
-Comenzando, clonación de repositorio  
-git clone https://github.com/marcelowebdesigner/G4-Frontend.git 
-Instalar dependencias con npm install luego npm fund.
-Luego para poder ejecutar la aplicación escriba npm run dev.
+### Features
+
+- This is a repository for the frontend of a payment reminder app.
+We apply 100% Agile methodologies, we try to do everything possible considering that it is a work group of different time zones. To do this, through Trello we create and assign tasks, where they change columns according to their status. Once done, the collaborator performs a PR, a Code Review is done and once at least 1 approver is ok, only then is it merged into Develop.
+
+### Technologies we decided to use:
+- Git, Github, Vite, React, Tailwind, Figma, Canva among others!
+In order to download this repository you must perform the following steps.
+
+### Getting started, repository clone
+`git clone https://github.com/marcelowebdesigner/G4-Frontend.git`
+
+### Install dependencies
+`npm install`
+
+### Run the app
+`npm run dev`
