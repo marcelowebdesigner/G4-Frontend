@@ -15,7 +15,7 @@ function Navbar() {
         </button>  
      
         <button type="button" className="h-14 w-10 rounded-full" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
-          <img className="rounded-full" src="./src/componentes/profile-photo.png" alt="" />
+          <img className="rounded-full" src="./src/assets/media/img/profile-photo.png" alt="" />
         </button>
    
     </div>  
