@@ -47,7 +47,7 @@ export const TextPassword = ({textContent}) => {
 export const ButtonLogin = ({content}) => {
   return (
     <>
-      <button className='hover:marker border-2 border-purple-half-dark rounded bg-purple-half-dark  text-zinc-100 mt-2 pr-40 pl-40 py-1'>{content}</button>
+      <Link to="/HomePage"><button className='hover:marker border-2 border-purple-half-dark rounded bg-purple-half-dark  text-zinc-100 mt-2 pr-40 pl-40 py-1'>{content}</button></Link>
       
     </>
   );
