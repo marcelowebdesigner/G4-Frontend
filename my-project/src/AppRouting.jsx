@@ -9,6 +9,7 @@ import { LoginPage } from "./pages/LoginPage";
 import  SignIn  from "./pages/SignIn"; 
 import ResetPassword from "./pages/ResetPassword";
 import Error404 from "./pages/Error404";
+import Dashboard from "./pages/Dashboard";
 
 function AppRouting() {
   return (
@@ -22,6 +23,7 @@ function AppRouting() {
         <Route path="/Login" element={<LoginPage />} />
         <Route path="/resetPassword" element={<ResetPassword />} />
         <Route path="/error404" element={<Error404 />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </div>
   );
