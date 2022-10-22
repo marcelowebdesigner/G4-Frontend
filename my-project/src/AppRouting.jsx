@@ -10,6 +10,7 @@ import  SignIn  from "./pages/SignIn";
 import ResetPassword from "./pages/ResetPassword";
 import Error404 from "./pages/Error404";
 import Dashboard from "./pages/Dashboard";
+import HomePagePostLogin from "./pages/HomePagePostLogin";
 
 function AppRouting() {
   return (
@@ -21,6 +22,7 @@ function AppRouting() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Signin" element={<SignIn />} />
         <Route path="/Login" element={<LoginPage />} />
+        <Route path="/HomePage" element={<HomePagePostLogin/>} />
         <Route path="/resetPassword" element={<ResetPassword />} />
         <Route path="/error404" element={<Error404 />} />
         <Route path="/dashboard" element={<Dashboard />} />

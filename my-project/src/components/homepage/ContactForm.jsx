@@ -1,6 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import emailjs from '@emailjs/browser';
+
+import '../../styles/Image-bg-ligth.css'
 const ContactForm = () => {
 
   const sendEmail = (event) => {
@@ -15,7 +17,7 @@ const ContactForm = () => {
 
   return (
     <div>
-      <form className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white dark:bg-blue-500" onSubmit={sendEmail}>
+      <form className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white dark:bg-blue-500 " onSubmit={sendEmail}>
       <h1 className="text-2xl font-bold dark:text-gray-50">Contactese con nosotros</h1>
 
       <label for="fullname" className="text-gray-500 font-light mt-8 dark:text-gray-50">Nombre Completo<span className="text-red-500 dark:text-gray-50">*</span></label>
@@ -29,7 +31,7 @@ const ContactForm = () => {
 
       <label for="message" className="text-gray-500 font-light mt-4 dark:text-gray-50">Mensaje<span className="text-red-500">*</span></label>
       <textarea name="user_message" className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"></textarea>
-      <div className="flex flex-row items-center justify-start">
+      <div className="flex flex-row items-center justify-start bg-light">
         <button className="px-10 mt-8 py-2 bg-[#130F49] text-gray-50 font-light rounded-md text-lg flex flex-row items-center">
           Send
           <svg width="24" height="24" viewBox="0 0 24 24" className="text-cyan-500 ml-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
