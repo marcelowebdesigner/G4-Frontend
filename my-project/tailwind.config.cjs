@@ -12,7 +12,8 @@ module.exports = {
         'purple-regular': '#C293FF',
         'purple-half-dark': '#7F39D9',
         'purple-dark': '#361165',
-        'purple-fulldark': '#220629'
+        'purple-fulldark': '#220629',
+        'blue-regular': '#440298'
       },
     },
   },
