@@ -21,7 +21,7 @@ export const ButtonBack = () => {
 export const MsgInstruction = ({instruction}) => {
   return (
     <>
-      <div className="text-purple-half-dark pr-24">{instruction}</div>
+      <label className="text-purple-half-dark pr-24">{instruction}</label>
     </>
   );
 };
