@@ -12,7 +12,7 @@ import "../styles/Image-bg-ligth.css";
 
 const SignIn = () => {
   return (
-    <div className="login-back mx-auto text-center py-48 ">
+    <form className="login-back mx-auto text-center py-48 ">
       <div className="container columns-3">
         <div>
           <ButtonBack />
@@ -41,11 +41,11 @@ const SignIn = () => {
               <br />
               <div className="relative flex py-5 items-center">
                   <div className="flex-grow border-t border-gray-400"></div>
-                  <span className="flex-shrink mx-4 text-gray-400 text-purple-dark font-semibold">Or login</span>
+                  <span className="flex-shrink mx-4 text-purple-dark font-semibold">Or login</span>
                   <div className="flex-grow border-t border-gray-400"></div>
               </div>
             <ButtonForm content="Login" />
-    </div>
+    </form>
   );
 };
 
