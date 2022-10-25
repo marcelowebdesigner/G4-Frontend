@@ -18,22 +18,24 @@ export const LoginPage = () => {
           <ButtonBack />
         </div>
         <div className="pl-2 pb-5">
-          <FormTitle title={"Login"}/>
+          <FormTitle title={"Login"} />
         </div>
       </div>
+      <br />
+      <form action="">
+        <div className="mr-10 ml-1 mb-1 pl-0 pr-24">
+          <MsgInstruction instruction="Email or Username" />
+        </div>
+        <TextAreaForm textContent="Email or Username" />
         <br />
-      <div className="mr-10 ml-1 mb-1 pl-0 pr-24">
-        <MsgInstruction instruction="Email or Username" />
-      </div>
-      <TextAreaForm textContent="Email or Username" />
-        <br />
-      <div className="mr-10 ml-0 mb-1 pl-0 pr-40">
-        <MsgInstruction instruction="Password" />
-      </div>
-      <TextPassword textContent="Password" />
-        <br />
+        <div className="mr-10 ml-0 mb-1 pl-0 pr-40">
+          <MsgInstruction instruction="Password" />
+        </div>
+        <TextPassword textContent="Password" />
+      </form>
+      <br />
       <ButtonLogin content="Login" />
-        <br />
+      <br />
       <ButtonForm content="Forgot your password?" />
     </div>
   );
