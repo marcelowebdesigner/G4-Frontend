@@ -1,13 +1,13 @@
 import React from 'react'
 import ContenidoAbout from '../components/homepage/About'
 import Footer from '../components/homepage/Footer'
-import Navbar from '../components/homepage/Navbar'
+import NavbarHomepage from '../components/homepage/NavbarHomepage'
 import '../styles/Image-bg-ligth.css'
 
 const About = () => {
   return (
     <div className="bg-light">
-      <Navbar />
+      <NavbarHomepage active='about' />
       <ContenidoAbout/>
       <Footer />  
     </div>
