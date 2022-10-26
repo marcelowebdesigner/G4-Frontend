@@ -3,7 +3,7 @@ import React from "react";
 import Description from "./components/homepage/Description";
 import SectionCards from "./components/homepage/SectionCards";
 import Header from "./components/homepage/Header";
-import Navbar from "./components/homepage/Navbar";
+import NavbarHomepage from "./components/homepage/NavbarHomepage";
 import "./index.css";
 import {
   FormTitle,
@@ -15,7 +15,7 @@ import {
 export const HomePage = () => {
   return (
     <React-Fragment>
-      <Navbar />
+      <NavbarHomepage active='home'/>
 
       <Header />
       <Description />
