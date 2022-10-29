@@ -9,7 +9,7 @@ module.exports = {
       colors: {
         'purple-light': '#E5D1FF',
         'purple-half-light': '#C293FF',
-        'purple-regular': '#C293FF',
+        'purple-regular': '#9B56F3',
         'purple-half-dark': '#7F39D9',
         'purple-dark': '#361165',
         'purple-fulldark': '#220629',

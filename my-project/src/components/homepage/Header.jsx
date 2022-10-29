@@ -9,7 +9,7 @@ import '../../styles/Header.css'
 function Header() {
   return ( 
       
-    <div class="flex justify-between mb-6">
+    <div class="flex justify-between">
       <div className="container flex justify-center">
         <h4 className="text-purple-dark text-7xl font-secondary">YOU FORGOT TO
           <span className='flex justify-end'>PAY??</span>
