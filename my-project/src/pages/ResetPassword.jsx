@@ -6,7 +6,7 @@ const ResetPassword = () => {
   return (
     <div className="bg-light col-12">
       <Link to="/" class="btn btn-outline-secondary">
-        Volver
+        Back
       </Link>
             <h1 className="text-center">Reset Password</h1>        
                 <div className="alert border  shadow round col-8 mx-auto p-4">
