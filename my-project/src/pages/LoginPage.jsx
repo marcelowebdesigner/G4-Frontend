@@ -1,42 +1,39 @@
 import React from "react";
-import {
-  FormTitle,
-  TextAreaForm,
-  ButtonForm,
-  MsgInstruction,
-  ButtonBack,
-  ButtonLogin,
-  TextPassword,
-} from "../components/loginpage/LoginForm";
+import { Link } from "react-router-dom";
 import "../styles/Image-bg-ligth.css";
 
 export const LoginPage = () => {
   return (
     <div className="login-back text-center pt-40 pb-48">
       <div className="w-72 inline-flex pr-16 mr-10">
-        <div className="py-2 mr-16 pt-4 pr-2 pl-1">
-          <ButtonBack />
-        </div>
-        <div className="pl-2 pb-5">
-          <FormTitle title={"Login"} />
+        <Link to="/" class="btn btn-outline-secondary">
+          Back
+        </Link>
+        <div className="text-purple-half-dark text-5xl pl-2 pb-5">
+          Login
         </div>
       </div>
       <br />
       <form action="">
-        <div className="mr-10 ml-1 mb-1 pl-0 pr-24">
-          <MsgInstruction instruction="Email or Username" />
+        <div className="text-purple-half-dark mr-10 ml-1 mb-1 pl-0 pr-24">
+          Email or Username:
         </div>
-        <TextAreaForm textContent="Email or Username" />
+          <input type="text" placeholder="Email or Username" className='border-2 border-purple-half-dark text-purple-half-dark rounded pr-44 pl-2 py-1 bg-transparent	'/>
         <br />
-        <div className="mr-10 ml-0 mb-1 pl-0 pr-40">
-          <MsgInstruction instruction="Password" />
+        <div className="text-purple-half-dark mr-10 ml-1 mb-1 pl-0 pr-24">
+          Password:
         </div>
-        <TextPassword textContent="Password" />
+        <input type="text" placeholder="Password" className="border-2 border-purple-half-dark text-purple-half-dark rounded pr-44 pl-2 py-1 bg-transparent	"/>
       </form>
       <br />
-      <ButtonLogin content="Login" />
+      <Link to="/Dashboard">
+        <button className='hover:marker border-2 border-purple-half-dark rounded bg-purple-half-dark  text-zinc-100 mt-2 pr-40 pl-40 py-1'>
+        Login</button>
+        </Link>
       <br />
-      <ButtonForm content="Forgot your password?" />
+      <button className='hover:marker border-2 border-purple-half-dark rounded text-purple-half-dark mt-8 pr-24 pl-24 py-1' >
+        Forgot your password?
+      </button>
     </div>
   );
 };
