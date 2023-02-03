@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import "../styles/Image-bg-ligth.css";
 //import Arrow from '../../assets/media/img/arrow-buttonback.png';
 import {Link} from 'react-router-dom';
+import register from "../services/register";
  
 
     const SignIn = () => {
@@ -25,23 +26,22 @@ import {Link} from 'react-router-dom';
         console.log(datos)
     }
 
-    (async () => {
-      const rawResponse = await fetch('http://127.0.0.1:8000/auth/users/', {
-        method: 'POST',
-        headers: {
-          'Accept': 'application/json',
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(datos)  
+    // (async () => {
+    //   const rawResponse = await fetch('http://127.0.0.1:8000/auth/users/', {
+    //     method: 'POST',
+    //     headers: {
+    //       'Accept': 'application/json',
+    //       'Content-Type': 'application/json'
+    //     },
+    //     body: JSON.stringify(datos)  
           
-      });
-      const content = await rawResponse.json();    
-      console.log(content);
-    })();
+    //   });
+    //   const content = await rawResponse.json();    
+    //   console.log(content);
+    // })();
 
   return (
-    <form className="login-back mx-auto text-center py-48 " method="post" onSubmit={enviarDatos}>
-      
+    <form className="login-back mx-auto text-center py-48 " method="post"  onSubmit={enviarDatos}>   
       <div className="container columns-3">
         <div>
           {/* <button><Link to="/"><img src={Arrow} alt="back"/> </Link></button> */}
@@ -57,6 +57,7 @@ import {Link} from 'react-router-dom';
           <input placeholder="mail"
             type="email" 
             name="email"
+            
             id="email"
             onChange={handleInputChange}
             required
@@ -68,6 +69,7 @@ import {Link} from 'react-router-dom';
           <input placeholder="primer nombre" 
             type="text"
             id="first_name"
+           
             name="first_name"
             onChange={handleInputChange}
             required
@@ -80,6 +82,7 @@ import {Link} from 'react-router-dom';
             type="text"
             id="last_name"
             name="last_name"
+            
             onChange={handleInputChange}
             required
             className='border-2 border-purple-half-dark text-purple-half-dark rounded pr-44 pl-2 py-1 bg-transparent'/>
@@ -90,6 +93,7 @@ import {Link} from 'react-router-dom';
           <input placeholder="contraseña"
             type="password"
             id="password"
+            
             name="password"
             onChange={handleInputChange}
             required
@@ -100,6 +104,7 @@ import {Link} from 'react-router-dom';
           <input placeholder="repetir contraseña"
             type="password"
             id="re_password"
+           
             name="re_password"
             onChange={handleInputChange}
             required
@@ -115,6 +120,7 @@ import {Link} from 'react-router-dom';
               </div>
               <button 
                 type="submit" 
+                onChange={register()}
                 className='hover:marker border-2 border-purple-half-dark rounded text-purple-half-dark mt-8 pr-24 pl-24 py-1'>
                   Registrar
               </button>
