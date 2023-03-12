@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/dashboard/Navbar";
 import Header from "../components/homepage/Header";
 
-import "../styles/Image-bg-ligth.css";
+
 
 const HomePagePostLogin = () => {
   return (
