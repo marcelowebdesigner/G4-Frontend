@@ -15,7 +15,11 @@ module.exports = {
         'purple-fulldark': '#220629',
         'blue-regular': '#440298'
       },
+      screens:{
+        'vy-sm': '360px',
+      }
     },
+    
   },
   plugins: [],
 
